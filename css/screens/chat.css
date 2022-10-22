@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1e1;
-  height: 500vh;
+  height: 300vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
@@ -84,7 +84,7 @@
 @keyframes rightToLeft {
   from {
     opacity: 0;
-    transform: translateX(30px);
+    transform: translateX(10px);
   }
   to {
     opacity: 1;
