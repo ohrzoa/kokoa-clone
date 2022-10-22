@@ -1,0 +1,14 @@
+@keyframes receiveMessage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.user-component__chats {
+  opacity: 0;
+  animation: receiveMessage 0.1s linear forwards;
+  animation-delay: 1s;
+}
